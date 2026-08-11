@@ -82,17 +82,34 @@ $$\gamma(\tilde{\phi}) = \kappa \cdot \max\left(0, \cos\left(2\pi \frac{\tilde{\
 
 The Phase 0 architecture has undergone rigorous Software-in-the-Loop (SITL) empirical telemetry validation, capturing millions of continuous execution cycles to prove infinite-horizon computational immortality.
 
-#### 1. Absolute Thermodynamic Stability & Cycle Execution
+#### 1. Automated Production Deployment & Initialization
 
-*Executed >11.57 million continuous integration cycles with zero frame drops, zero unhandled floating-point exceptions (NaNs), and perfect memory retention under strict CGroup isolation.*
+*Execution of `--auto-deploy` provisioning isolated virtual environments, compiling system dependencies, seating cryptographic hardware entropy, and sealing the daemon into a strictly isolated `systemd` cgroup.*
 
-#### 2. Perfect Phase-Gamma Actuation
+![System Dependencies & APT Installation](assets/images/NGVM-1.PNG)
+![Hardware Entropy Seeding & Daemon Initialization](assets/images/NGVM-2.PNG)
+![Pre-Flight Environment Setup](assets/images/NGVM-3.PNG)
+![Systemd Service Generation & Deployment Completion](assets/images/NGVM-6.PNG)
 
-*Telemetry validation confirming the $\gamma$ dissipation parameter strictly tracks the NREM sleep phase, dynamically scaling and resting mathematically precisely (e.g., reaching $0.00990$ at phase $2.140$ with 0.00000 baseline during wakefulness).*
-
-#### 3. Deterministic Self-Test Validation Suite
+#### 2. Deterministic Self-Test Validation Suite
 
 *Execution of `--test-only` verifying all mathematical operators including the Fractional NGVU Engine, Riemannian SPD Processor, and Hardware Abstraction Functor.*
+
+![Deterministic Self-Test Part 1](assets/images/NGVM-4.PNG)
+![Deterministic Self-Test Part 2 - 7/7 Passed](assets/images/NGVM-5.PNG)
+
+#### 3. Absolute Thermodynamic Stability & Cycle Execution
+
+*Executed >12.56 million continuous integration cycles with zero frame drops, zero unhandled floating-point exceptions (NaNs), and perfect memory retention under strict CGroup isolation.*
+
+![Systemd Status and CGroup Memory Retention](assets/images/NGVM-7.PNG)
+
+#### 4. Perfect Phase-Gamma Actuation
+
+*Telemetry validation confirming the $\gamma$ dissipation parameter strictly tracks the NREM sleep phase, dynamically scaling and resting mathematically precisely (e.g., maintaining a strict `0.00000` baseline during wakefulness, and smoothly actuating during targeted biological phase windows).*
+
+![Baseline Wakefulness Telemetry](assets/images/NGVM-8.PNG)
+![NREM Sleep Actuation Exceeding 12.56 Million Cycles](assets/images/NGVM-9.PNG)
 
 ---
 
