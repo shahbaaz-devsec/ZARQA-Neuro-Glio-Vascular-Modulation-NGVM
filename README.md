@@ -1,6 +1,19 @@
-# ZARQA-Neuro-Glio-Vascular-Modulation-NGVM
+<div align="center">
+
+# 🧠 ZARQA Neuro-Glio-Vascular Modulation (NGVM)
+
+[![DOI - Software (Latest)](https://img.shields.io/badge/DOI_Software-10.xxxx%2Fxxxx.software-blue)](https://doi.org/10.xxxx/xxxx.software)
+[![DOI - Phase 0 Paper](https://img.shields.io/badge/DOI_Phase_0_Paper-10.xxxx%2Fxxxx.paper-00557f)](https://doi.org/10.xxxx/xxxx.paper)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Compliance: Biological 120-Year Horizon](https://img.shields.io/badge/Compliance-Biological%20120--Year%20Horizon-orange)](#)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 
 > **A Mathematically Immortal, Cyber-Physically Sovereign Architecture for Lifetime Brain-Computer Interfaces.**
+
+<br>
+</div>
+
+The ZARQA NGVM Project is a paradigm shift in BCI technology: a closed-loop, 50-year implantable neural interface that actively modulates the neuro-glio-vascular ecosystem. It features mathematical inflammation suppression, quantum-resistant encryption, and hardware-agnostic deployment across x86, ARM, FPGA, and ASIC platforms.
 
 ---
 
@@ -150,16 +163,25 @@ sudo journalctl -u zarqa-ngvm -f
 
 ## 📖 Citation
 
-If you use this codebase or mathematical architecture in your research, please cite the official Figshare whitepaper and repository:
+If you use this codebase or mathematical architecture in your research, please cite our official whitepaper and software repository:
 
 ```bibtex
+@software{ahmed_zarqa_ngvm_software_2026,
+  author       = {Ahmed, Mohammad Shahbaaz},
+  title        = {ZARQA-Neuro-Glio-Vascular-Modulation-NGVM: Phase 0 Foundational Validation Framework},
+  year         = {2026},
+  publisher    = {Zenodo},
+  doi          = {10.xxxx/xxxx.software},
+  url          = {[https://doi.org/10.xxxx/xxxx.software](https://doi.org/10.xxxx/xxxx.software)}
+}
+
 @techreport{ahmed_zarqa_ngvm_phase0_2026,
   author       = {Ahmed, Mohammad Shahbaaz},
   title        = {The ZARQA NGVM Phase 0 Framework: A Mathematically Immortal, Cyber-Physically Sovereign Architecture for Lifetime Brain-Computer Interfaces},
   year         = {2026},
   publisher    = {Figshare},
-  doi          = {10.6084/m9.figshare.33086012},
-  url          = {https://doi.org/10.6084/m9.figshare.33086012}
+  doi          = {10.xxxx/xxxx.paper},
+  url          = {[https://doi.org/10.xxxx/xxxx.paper](https://doi.org/10.xxxx/xxxx.paper)}
 }
 
 ```
