@@ -1148,7 +1148,7 @@ WantedBy=multi-user.target
 def parse_arguments() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="ZARQA NGVM Phase 0 – Foundational Validation Framework",
-        epilog="Designed by ZARQA Systems Engineering, 30+ years of production experience."
+        epilog="Designed by ZARQA Systems Engineering."
     )
     parser.add_argument('--auto-deploy', action='store_true',
                         help='Run full deployment with zero manual intervention')
